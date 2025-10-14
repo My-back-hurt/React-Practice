@@ -29,3 +29,9 @@ export default function AddTodo({ onAdd }) {
     </form>
   );
 }
+
+// Controlled Form	入力フォームの値を state で管理する
+// onChange	入力値が変わったら state を更新
+// onSubmit	フォーム送信時に親に値を渡す
+// preventDefault	ページリロードを防ぐ
+// 状態のリフトアップ	子 → 親へ状態を渡してアプリ全体で管理
