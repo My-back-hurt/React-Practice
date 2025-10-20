@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 
 export default function TodoItem({ text, done, onToggle, onDelete }) {
   return (
@@ -23,9 +23,9 @@ export default function TodoItem({ text, done, onToggle, onDelete }) {
   );
 }
 
-TodoItem.propTypes = {
-  text: PropTypes.string.isRequired,
-  done: PropTypes.bool.isRequired,
-  onToggle: PropTypes.func.isRequired,
-  onDelete: PropTypes.func.isRequired,
-};
+// TodoItem.propTypes = {
+//   text: PropTypes.string.isRequired,
+//   done: PropTypes.bool.isRequired,
+//   onToggle: PropTypes.func.isRequired,
+//   onDelete: PropTypes.func.isRequired,
+// };

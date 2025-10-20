@@ -1,5 +1,5 @@
 import { useState } from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 
 export default function AddTodo({ onAdd }) {
   const [text, setText] = useState("");
@@ -29,6 +29,6 @@ export default function AddTodo({ onAdd }) {
   );
 }
 
-AddTodo.propTypes = {
-  onAdd: PropTypes.func.isRequired,
-};
+// AddTodo.propTypes = {
+//   onAdd: PropTypes.func.isRequired,
+// };
